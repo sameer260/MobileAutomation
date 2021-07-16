@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "To check the Reg user can able to buy and watch a movie",
+        "description": "",
+        "id": "to-check-the-end-to-end-functionality-of-gudsho;to-check-the-reg-user-can-able-to-buy-and-watch-a-movie;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23246443000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is not logged in to gudsho app",
+            "match": {
+              "location": "EndtoEnd.user_is_not_logged_in_to_gudsho_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6400256800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the user can search a desired Transcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Transcode",
+                  "offset": 37
+                }
+              ],
+              "location": "EndtoEnd.verify_the_user_can_search_a_desired(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6934925500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the user can able to see the show detail page",
+            "match": {
+              "location": "EndtoEnd.verify_the_user_can_able_to_see_the_show_detail_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213634800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks buy options",
+            "match": {
+              "location": "EndtoEnd.user_clicks_buy_options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2948867200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the login poup is shown and user can login",
+            "match": {
+              "location": "EndtoEnd.verify_the_login_poup_is_shown_and_user_can_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15857314200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the user navigates to the payment detail page and enter the payment details",
+            "match": {
+              "location": "EndtoEnd.verify_the_user_navigates_to_the_payment_detail_page_and_enter_the_payment_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3429997100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "After the payment verify the movie is getting played",
+            "match": {
+              "location": "EndtoEnd.after_the_payment_verify_the_movie_is_getting_played()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NewEnd2End"
+          }
+        ]
+      }
+    ],
+    "name": "To check the end to end functionality of GudSho",
+    "description": "",
+    "id": "to-check-the-end-to-end-functionality-of-gudsho",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/EndtoEnd.feature",
+    "tags": []
+  }
+]

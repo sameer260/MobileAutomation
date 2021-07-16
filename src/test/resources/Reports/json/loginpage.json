@@ -1,0 +1,200 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "To check whether the user can able to follow the studio",
+        "description": "",
+        "id": "to-check-the-functionality-of-following-studio;to-check-whether-the-user-can-able-to-follow-the-studio;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52964128100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is logged in to gudsho with valid credentils",
+            "match": {
+              "location": "Studiofollow.user_is_logged_in_to_gudsho_with_valid_credentils()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3096518000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in the studios tab",
+            "match": {
+              "location": "Studiofollow.user_is_in_the_studios_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3240254900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the \"Tamil studio\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tamil studio\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Studiofollow.user_enters_the(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2081718800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the user navigates to the studio detail page and user clicks follow button",
+            "match": {
+              "location": "Studiofollow.verify_the_user_navigates_to_the_studio_detail_page_and_user_clicks_follow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1061698400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the follow should be changed Following",
+            "match": {
+              "location": "Studiofollow.verify_the_follow_should_be_changed_Following()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1940650000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the Studioname in my following studio",
+            "match": {
+              "location": "Studiofollow.verify_the_Studioname_in_my_following_studio()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regfollow"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "To check whether the user can able to follow the studio",
+        "description": "",
+        "id": "to-check-the-functionality-of-following-studio;to-check-whether-the-user-can-able-to-follow-the-studio;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50784941800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is logged in to gudsho with valid credentils",
+            "match": {
+              "location": "Studiofollow.user_is_logged_in_to_gudsho_with_valid_credentils()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3225326400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in the studios tab",
+            "match": {
+              "location": "Studiofollow.user_is_in_the_studios_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3283109600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the \"Tamil Entertainment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tamil Entertainment\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Studiofollow.user_enters_the(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1771510600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the user navigates to the studio detail page and user clicks follow button",
+            "match": {
+              "location": "Studiofollow.verify_the_user_navigates_to_the_studio_detail_page_and_user_clicks_follow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-J4L7218\u0027, ip: \u0027192.168.43.133\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.gudsho.SplashActivity, appPackage: com.gudsho, databaseEnabled: false, desired: {appActivity: com.gudsho.SplashActivity, appPackage: com.gudsho, deviceName: Galaxy A70, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A705GM, deviceName: RZ8M741Q19N, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RZ8M741Q19N, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 76, takesScreenshot: true, viewportRect: {height: 2122, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 3da5a880-f5b1-4ab6-985c-d4414d628fbf\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)\r\n\tat io.appium.java_client.MobileElement.execute(MobileElement.java:1)\r\n\tat io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)\r\n\tat org.Stepdefinition.Studiofollow.verify_the_follow_should_be_changed_Following(Studiofollow.java:50)\r\n\tat ✽.verify the follow should be changed Following(src/test/resources/Feature/followingstudio.feature:9)\r\n",
+              "duration": 1052424500,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "verify the follow should be changed Following",
+            "match": {
+              "location": "Studiofollow.verify_the_follow_should_be_changed_Following()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28900,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "verify the Studioname in my following studio",
+            "match": {
+              "location": "Studiofollow.verify_the_Studioname_in_my_following_studio()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regfollow"
+          }
+        ]
+      }
+    ],
+    "name": "To check the functionality of following studio",
+    "description": "",
+    "id": "to-check-the-functionality-of-following-studio",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/followingstudio.feature",
+    "tags": []
+  }
+]
